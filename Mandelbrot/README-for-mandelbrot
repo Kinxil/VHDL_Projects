@@ -1,1 +1,14 @@
-Projet de l'année dernière sur l'affichage de fractale de Mandelbrot 
+Projet de l'année dernière sur l'affichage de fractale de Mandelbrot sur Nexys 4, sur VGA.
+Le projet doit pouvoir compiler sur ISE (ROM non fonctionnelle sur Vivado) avec les sources fournis et le .UCF de la Nexys 4
+
+Commandes : 
+Bouton poussoir haut/bas/gauche/droite de la Nexys : déplacement sur la fractale de Mandelbrot
+Bouton poussoir central & haut : zoom
+Bouton poussoir central & bas : dezoom
+Switch 0 : Reset (position et max d'itérations dynamique réinitialisés, entre autres)
+Switch 1 : Inib (Activation/Désactivation de l'incrémentation du max d'itérations dynamique (raffinement progressif de la fractale))
+Switch 2 : Maxiter (max d'itération dynamique = MAX_ITER, valeur maximale admise (Shared.vhd), donc affichage de la fractale la plus raffinée)
+
+Matériel : La version fournie comporte 8 coeurs de calculs parallèles (8 pixels simultanés). Le nombre de coeurs peut problablement être augmenté (non testé).
+
+Colorgen : Module ROM contenant les associations nombre d'itération trouvé <-> couleur VGA. La ROM est auto générable à partir du programme C# fourni (projet Visual Studio complet), qui propose de choisir le nombre max d'itérations admissibles.
