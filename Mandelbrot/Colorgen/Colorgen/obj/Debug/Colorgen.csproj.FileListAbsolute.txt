@@ -1,0 +1,6 @@
+E:\Workspace\Programmation\MLProjects\Mandelbrot\Colorgen\Colorgen\bin\Debug\Colorgen.exe.config
+E:\Workspace\Programmation\MLProjects\Mandelbrot\Colorgen\Colorgen\bin\Debug\Colorgen.exe
+E:\Workspace\Programmation\MLProjects\Mandelbrot\Colorgen\Colorgen\bin\Debug\Colorgen.pdb
+E:\Workspace\Programmation\MLProjects\Mandelbrot\Colorgen\Colorgen\obj\Debug\Colorgen.exe
+E:\Workspace\Programmation\MLProjects\Mandelbrot\Colorgen\Colorgen\obj\Debug\Colorgen.pdb
+E:\Workspace\Programmation\MLProjects\Mandelbrot\Colorgen\Colorgen\obj\Debug\Colorgen.csprojResolveAssemblyReference.cache
