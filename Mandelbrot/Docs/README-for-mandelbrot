@@ -13,3 +13,5 @@ Matériel : La version fournie comporte 8 coeurs de calculs parallèles (8 pixel
 
 Colorgen : Module ROM contenant les associations nombre d'itération trouvé <-> couleur VGA. 
 La ROM est auto générable à partir du programme C# fourni (projet Visual Studio complet), qui propose de choisir le nombre max d'itérations admissibles (à remplacer dans Shared.vhd).
+
+Des informations générales sur l'architecture réalisée sont fournis dans le Rapport fourni dans ce même dossier.
