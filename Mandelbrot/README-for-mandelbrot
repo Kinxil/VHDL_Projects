@@ -11,4 +11,40 @@ Switch 2 : Maxiter (max d'itération dynamique = MAX_ITER, valeur maximale admis
 
 Matériel : La version fournie comporte 8 coeurs de calculs parallèles (8 pixels simultanés). Le nombre de coeurs peut problablement être augmenté (non testé).
 
-Colorgen : Module ROM contenant les associations nombre d'itération trouvé <-> couleur VGA. La ROM est auto générable à partir du programme C# fourni (projet Visual Studio complet), qui propose de choisir le nombre max d'itérations admissibles.
+Colorgen : Module ROM contenant les associations nombre d'itération trouvé <-> couleur VGA. 
+La ROM est auto générable à partir du programme C# fourni (projet Visual Studio complet), qui propose de choisir le nombre max d'itérations admissibles (à remplacer dans Shared.vhd).
+
+1
+Projet de l'année dernière sur l'affichage de fractale de Mandelbrot sur Nexys 4, sur VGA.
+2
+Le projet doit pouvoir compiler sur ISE (ROM non fonctionnelle sur Vivado) avec les sources fournis et le .UCF de la Nexys 4
+3
+​
+4
+Commandes : 
+5
+Bouton poussoir haut/bas/gauche/droite de la Nexys : déplacement sur la fractale de Mandelbrot
+6
+Bouton poussoir central & haut : zoom
+7
+Bouton poussoir central & bas : dezoom
+8
+Switch 0 : Reset (position et max d'itérations dynamique réinitialisés, entre autres)
+9
+Switch 1 : Inib (Activation/Désactivation de l'incrémentation du max d'itérations dynamique (raffinement progressif de la fractale))
+10
+Switch 2 : Maxiter (max d'itération dynamique = MAX_ITER, valeur maximale admise (Shared.vhd), donc affichage de la fractale la plus raffinée)
+11
+​
+12
+Matériel : La version fournie comporte 8 coeurs de calculs parallèles (8 pixels simultanés). Le nombre de coeurs peut problablement être augmenté (non testé).
+13
+​
+14
+Colorgen : Module ROM contenant les associations nombre d'itération trouvé <-> couleur VGA. 
+15
+La ROM est auto générable à partir du programme C# fourni (projet Visual Studio complet), qui propose de choisir le nombre max d'itérations admissibles (à remplacer dans Shared.vhd).
+16
+​
+@Kinxil
+Commit changes
